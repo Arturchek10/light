@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VueLamp</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="menu">
+    <nav>
+      <img src="imgs/menu.png" class="menu-img">
+      <img src="imgs/logo.png" class="logo">
+      <ul>
+        <li><a href="">Latest</a></li>
+        <li><a href="">Modern</a></li>
+        <li><a href="">Contemparary</a></li>
+        <li><a href="">Affordoble</a></li>
+      </ul>
+      <button class="button" onclick="toggleBtn()" id="btn"><span></span></button>
+    </nav>
+    <div class="lamp-container">
+      <img src="imgs/lamp.png" class="lamp-img">
+      <img src="imgs/light.png" class="light-img" id="light">
+    </div>
+
+    <div class="text-container">
+      <h1 class="h1-text">Latest<br>in Lighting</h1>
+      <p class="text-info">This is the firsr lamp from our company. we`re making a huge colletcion of modern lamps in all categories from use to office use.</p>
+      <a href="">Check All Collections</a>
+      <div class="control">
+        <p>04</p>
+        <div class="line"><span></span></div>
+        <p>05</p>
+      </div>
+    </div>
+
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
